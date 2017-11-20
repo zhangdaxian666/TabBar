@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+target "手势解锁" do
+pod 'SVProgressHUD'
+pod 'MJExtension'
+end

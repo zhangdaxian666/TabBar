@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2279CCA0787B9E0FED64DFE3 /* libPods-手势解锁.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F77EC54E7DBF7625338C612 /* libPods-手势解锁.a */; };
+		552327401FB42F34002A0754 /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 5523273F1FB42F34002A0754 /* ViewControllerOne.m */; };
+		552327431FB42F49002A0754 /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 552327421FB42F49002A0754 /* ViewControllerTwo.m */; };
+		552327461FB42F56002A0754 /* ViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 552327451FB42F56002A0754 /* ViewControllerThree.m */; };
+		552327491FB42F62002A0754 /* ViewControllerFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 552327481FB42F62002A0754 /* ViewControllerFour.m */; };
+		552327681FB442A6002A0754 /* CDNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 552327621FB442A3002A0754 /* CDNavigationVC.m */; };
+		552327691FB442A8002A0754 /* CDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 552327661FB442A3002A0754 /* CDTabBar.m */; };
+		5523276A1FB442AC002A0754 /* CDTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 552327671FB442A3002A0754 /* CDTabbarVC.m */; };
+		5523276D1FB445B8002A0754 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5523276C1FB445B8002A0754 /* TableViewCell.m */; };
+		5524E2A31FBD5CC6007F7E65 /* TableViewVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5524E2A11FBD5CC6007F7E65 /* TableViewVCCell.m */; };
+		5524E2A41FBD5CC6007F7E65 /* TableViewVCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5524E2A21FBD5CC6007F7E65 /* TableViewVCCell.xib */; };
+		5524E2A71FBD6B90007F7E65 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5524E2A61FBD6B90007F7E65 /* Tool.m */; };
+		5524E2AA1FBD83E6007F7E65 /* tableviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5524E2A91FBD83E6007F7E65 /* tableviewcontroller.m */; };
+		552C4D561FBC03BA00BEC1E6 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 552C4D541FBC03BA00BEC1E6 /* CollectionViewCell.m */; };
+		552C4D571FBC03BA00BEC1E6 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 552C4D551FBC03BA00BEC1E6 /* CollectionViewCell.xib */; };
+		5534F0AA1FB03F3A0023A447 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5534F0A91FB03F3A0023A447 /* AppDelegate.m */; };
+		5534F0AD1FB03F3A0023A447 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5534F0AC1FB03F3A0023A447 /* ViewController.m */; };
+		5534F0B01FB03F3A0023A447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5534F0AE1FB03F3A0023A447 /* Main.storyboard */; };
+		5534F0B21FB03F3A0023A447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5534F0B11FB03F3A0023A447 /* Assets.xcassets */; };
+		5534F0B51FB03F3A0023A447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5534F0B31FB03F3A0023A447 /* LaunchScreen.storyboard */; };
+		5534F0B81FB03F3A0023A447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5534F0B71FB03F3A0023A447 /* main.m */; };
+		5534F0C21FB03F3A0023A447 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5534F0C11FB03F3A0023A447 /* ____Tests.m */; };
+		5534F0CD1FB03F3A0023A447 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5534F0CC1FB03F3A0023A447 /* ____UITests.m */; };
+		5534F0DC1FB041900023A447 /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5534F0DB1FB041900023A447 /* LockView.m */; };
+		5534F0DF1FB05C2A0023A447 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5534F0DE1FB05C2A0023A447 /* CoreLocation.framework */; };
+		5534F0FF1FB079260023A447 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 5534F0FE1FB079260023A447 /* UIView+Size.m */; };
+		5534F1021FB087CC0023A447 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 5534F1011FB087CC0023A447 /* NSString+Size.m */; };
+		55A5FFE01FB147CD00EFC174 /* Myobject.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A5FFDF1FB147CD00EFC174 /* Myobject.m */; };
+		55A5FFE31FB1487400EFC174 /* UIButton+Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A5FFE21FB1487400EFC174 /* UIButton+Edge.m */; };
+		55FE933A1FBAB08A00E913EE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FE93391FBAB08A00E913EE /* QuartzCore.framework */; };
+		55FE933C1FBAB09600E913EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FE933B1FBAB09600E913EE /* UIKit.framework */; };
+		55FE933E1FBAB0A200E913EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FE933D1FBAB0A200E913EE /* Foundation.framework */; };
+		55FE93421FBAC24200E913EE /* ViewControllerFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE93401FBAC24200E913EE /* ViewControllerFire.m */; };
+		55FE93431FBAC24200E913EE /* ViewControllerFire.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FE93411FBAC24200E913EE /* ViewControllerFire.xib */; };
+		55FE934C1FBACEB700E913EE /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE934B1FBACEB700E913EE /* model.m */; };
+		55FE93551FBAD1C700E913EE /* TableViewCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE93531FBAD1C700E913EE /* TableViewCellVC.m */; };
+		55FE93561FBAD1C700E913EE /* TableViewCellVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FE93541FBAD1C700E913EE /* TableViewCellVC.xib */; };
+		55FE93581FBADBBA00E913EE /* books.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55FE93571FBADA7F00E913EE /* books.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5534F0BE1FB03F3A0023A447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5534F09D1FB03F3A0023A447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5534F0A41FB03F3A0023A447;
+			remoteInfo = "手势解锁";
+		};
+		5534F0C91FB03F3A0023A447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5534F09D1FB03F3A0023A447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5534F0A41FB03F3A0023A447;
+			remoteInfo = "手势解锁";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F77EC54E7DBF7625338C612 /* libPods-手势解锁.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-手势解锁.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5F3E94BB08A65709DB4027 /* Pods-手势解锁.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-手势解锁.debug.xcconfig"; path = "Pods/Target Support Files/Pods-手势解锁/Pods-手势解锁.debug.xcconfig"; sourceTree = "<group>"; };
+		5523273E1FB42F34002A0754 /* ViewControllerOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		5523273F1FB42F34002A0754 /* ViewControllerOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		552327411FB42F49002A0754 /* ViewControllerTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		552327421FB42F49002A0754 /* ViewControllerTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
+		552327441FB42F56002A0754 /* ViewControllerThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerThree.h; sourceTree = "<group>"; };
+		552327451FB42F56002A0754 /* ViewControllerThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThree.m; sourceTree = "<group>"; };
+		552327471FB42F62002A0754 /* ViewControllerFour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerFour.h; sourceTree = "<group>"; };
+		552327481FB42F62002A0754 /* ViewControllerFour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFour.m; sourceTree = "<group>"; };
+		552327621FB442A3002A0754 /* CDNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDNavigationVC.m; sourceTree = "<group>"; };
+		552327631FB442A3002A0754 /* CDTabbarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTabbarVC.h; sourceTree = "<group>"; };
+		552327641FB442A3002A0754 /* CDNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDNavigationVC.h; sourceTree = "<group>"; };
+		552327651FB442A3002A0754 /* CDTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTabBar.h; sourceTree = "<group>"; };
+		552327661FB442A3002A0754 /* CDTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTabBar.m; sourceTree = "<group>"; };
+		552327671FB442A3002A0754 /* CDTabbarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTabbarVC.m; sourceTree = "<group>"; };
+		5523276B1FB445B8002A0754 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		5523276C1FB445B8002A0754 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		5524E2A01FBD5CC6007F7E65 /* TableViewVCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewVCCell.h; sourceTree = "<group>"; };
+		5524E2A11FBD5CC6007F7E65 /* TableViewVCCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewVCCell.m; sourceTree = "<group>"; };
+		5524E2A21FBD5CC6007F7E65 /* TableViewVCCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewVCCell.xib; sourceTree = "<group>"; };
+		5524E2A51FBD6B90007F7E65 /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		5524E2A61FBD6B90007F7E65 /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		5524E2A81FBD83E6007F7E65 /* tableviewcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tableviewcontroller.h; sourceTree = "<group>"; };
+		5524E2A91FBD83E6007F7E65 /* tableviewcontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableviewcontroller.m; sourceTree = "<group>"; };
+		552C4D531FBC03BA00BEC1E6 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		552C4D541FBC03BA00BEC1E6 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		552C4D551FBC03BA00BEC1E6 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		5534F0A51FB03F3A0023A447 /* 手势解锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手势解锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5534F0A81FB03F3A0023A447 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5534F0A91FB03F3A0023A447 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5534F0AB1FB03F3A0023A447 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5534F0AC1FB03F3A0023A447 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5534F0AF1FB03F3A0023A447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5534F0B11FB03F3A0023A447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5534F0B41FB03F3A0023A447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5534F0B61FB03F3A0023A447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5534F0B71FB03F3A0023A447 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5534F0BD1FB03F3A0023A447 /* 手势解锁Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手势解锁Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5534F0C11FB03F3A0023A447 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		5534F0C31FB03F3A0023A447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5534F0C81FB03F3A0023A447 /* 手势解锁UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手势解锁UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5534F0CC1FB03F3A0023A447 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		5534F0CE1FB03F3A0023A447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5534F0DA1FB041900023A447 /* LockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		5534F0DB1FB041900023A447 /* LockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
+		5534F0DE1FB05C2A0023A447 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5534F0FB1FB074DB0023A447 /* CDPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDPch.pch; sourceTree = "<group>"; };
+		5534F0FD1FB079260023A447 /* UIView+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		5534F0FE1FB079260023A447 /* UIView+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		5534F1001FB087CC0023A447 /* NSString+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		5534F1011FB087CC0023A447 /* NSString+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		55A5FFDE1FB147CD00EFC174 /* Myobject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Myobject.h; sourceTree = "<group>"; };
+		55A5FFDF1FB147CD00EFC174 /* Myobject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Myobject.m; sourceTree = "<group>"; };
+		55A5FFE11FB1487400EFC174 /* UIButton+Edge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Edge.h"; sourceTree = "<group>"; };
+		55A5FFE21FB1487400EFC174 /* UIButton+Edge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Edge.m"; sourceTree = "<group>"; };
+		55FE93391FBAB08A00E913EE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		55FE933B1FBAB09600E913EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55FE933D1FBAB0A200E913EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55FE933F1FBAC24200E913EE /* ViewControllerFire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerFire.h; sourceTree = "<group>"; };
+		55FE93401FBAC24200E913EE /* ViewControllerFire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFire.m; sourceTree = "<group>"; };
+		55FE93411FBAC24200E913EE /* ViewControllerFire.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewControllerFire.xib; sourceTree = "<group>"; };
+		55FE934A1FBACEB700E913EE /* model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		55FE934B1FBACEB700E913EE /* model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
+		55FE93521FBAD1C700E913EE /* TableViewCellVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellVC.h; sourceTree = "<group>"; };
+		55FE93531FBAD1C700E913EE /* TableViewCellVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellVC.m; sourceTree = "<group>"; };
+		55FE93541FBAD1C700E913EE /* TableViewCellVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellVC.xib; sourceTree = "<group>"; };
+		55FE93571FBADA7F00E913EE /* books.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = books.plist; sourceTree = "<group>"; };
+		9063BFA0DBF18D2FB3BB3DAD /* Pods-手势解锁.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-手势解锁.release.xcconfig"; path = "Pods/Target Support Files/Pods-手势解锁/Pods-手势解锁.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5534F0A21FB03F3A0023A447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FE933E1FBAB0A200E913EE /* Foundation.framework in Frameworks */,
+				55FE933C1FBAB09600E913EE /* UIKit.framework in Frameworks */,
+				55FE933A1FBAB08A00E913EE /* QuartzCore.framework in Frameworks */,
+				5534F0DF1FB05C2A0023A447 /* CoreLocation.framework in Frameworks */,
+				2279CCA0787B9E0FED64DFE3 /* libPods-手势解锁.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5534F0BA1FB03F3A0023A447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5534F0C51FB03F3A0023A447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5534F09C1FB03F3A0023A447 = {
+			isa = PBXGroup;
+			children = (
+				5534F0A71FB03F3A0023A447 /* 手势解锁 */,
+				5534F0C01FB03F3A0023A447 /* 手势解锁Tests */,
+				5534F0CB1FB03F3A0023A447 /* 手势解锁UITests */,
+				5534F0A61FB03F3A0023A447 /* Products */,
+				5534F0DD1FB05C290023A447 /* Frameworks */,
+				908D92DB080D0C5F3CB7C0E5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5534F0A61FB03F3A0023A447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5534F0A51FB03F3A0023A447 /* 手势解锁.app */,
+				5534F0BD1FB03F3A0023A447 /* 手势解锁Tests.xctest */,
+				5534F0C81FB03F3A0023A447 /* 手势解锁UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5534F0A71FB03F3A0023A447 /* 手势解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				5534F0A81FB03F3A0023A447 /* AppDelegate.h */,
+				5534F0A91FB03F3A0023A447 /* AppDelegate.m */,
+				5534F0AB1FB03F3A0023A447 /* ViewController.h */,
+				5534F0AC1FB03F3A0023A447 /* ViewController.m */,
+				5534F0DA1FB041900023A447 /* LockView.h */,
+				5534F0DB1FB041900023A447 /* LockView.m */,
+				5534F0FC1FB078E90023A447 /* 扩充类 */,
+				5534F0FA1FB073A90023A447 /* tabbar分类 */,
+				5534F0E01FB071450023A447 /* tabbar */,
+				5534F0AE1FB03F3A0023A447 /* Main.storyboard */,
+				5534F0FB1FB074DB0023A447 /* CDPch.pch */,
+				5534F0B11FB03F3A0023A447 /* Assets.xcassets */,
+				5534F0B31FB03F3A0023A447 /* LaunchScreen.storyboard */,
+				5534F0B61FB03F3A0023A447 /* Info.plist */,
+				5534F0B71FB03F3A0023A447 /* main.m */,
+			);
+			path = "手势解锁";
+			sourceTree = "<group>";
+		};
+		5534F0C01FB03F3A0023A447 /* 手势解锁Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5534F0C11FB03F3A0023A447 /* ____Tests.m */,
+				5534F0C31FB03F3A0023A447 /* Info.plist */,
+			);
+			path = "手势解锁Tests";
+			sourceTree = "<group>";
+		};
+		5534F0CB1FB03F3A0023A447 /* 手势解锁UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5534F0CC1FB03F3A0023A447 /* ____UITests.m */,
+				5534F0CE1FB03F3A0023A447 /* Info.plist */,
+			);
+			path = "手势解锁UITests";
+			sourceTree = "<group>";
+		};
+		5534F0DD1FB05C290023A447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55FE933D1FBAB0A200E913EE /* Foundation.framework */,
+				55FE933B1FBAB09600E913EE /* UIKit.framework */,
+				55FE93391FBAB08A00E913EE /* QuartzCore.framework */,
+				5534F0DE1FB05C2A0023A447 /* CoreLocation.framework */,
+				2F77EC54E7DBF7625338C612 /* libPods-手势解锁.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5534F0E01FB071450023A447 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				552327641FB442A3002A0754 /* CDNavigationVC.h */,
+				552327621FB442A3002A0754 /* CDNavigationVC.m */,
+				552327651FB442A3002A0754 /* CDTabBar.h */,
+				552327661FB442A3002A0754 /* CDTabBar.m */,
+				552327631FB442A3002A0754 /* CDTabbarVC.h */,
+				552327671FB442A3002A0754 /* CDTabbarVC.m */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		5534F0FA1FB073A90023A447 /* tabbar分类 */ = {
+			isa = PBXGroup;
+			children = (
+				55FE93481FBACE5800E913EE /* 第五个页面 */,
+				55FE93471FBACE3000E913EE /* 第四个页面 */,
+				55FE93461FBACE2E00E913EE /* 第三个页面 */,
+				55FE93451FBACE2B00E913EE /* 第二个页面 */,
+				55FE93441FBACE2600E913EE /* 第一个页面 */,
+			);
+			path = "tabbar分类";
+			sourceTree = "<group>";
+		};
+		5534F0FC1FB078E90023A447 /* 扩充类 */ = {
+			isa = PBXGroup;
+			children = (
+				5534F0FD1FB079260023A447 /* UIView+Size.h */,
+				5534F0FE1FB079260023A447 /* UIView+Size.m */,
+				5534F1001FB087CC0023A447 /* NSString+Size.h */,
+				5534F1011FB087CC0023A447 /* NSString+Size.m */,
+				55A5FFE11FB1487400EFC174 /* UIButton+Edge.h */,
+				55A5FFE21FB1487400EFC174 /* UIButton+Edge.m */,
+				55A5FFDE1FB147CD00EFC174 /* Myobject.h */,
+				55A5FFDF1FB147CD00EFC174 /* Myobject.m */,
+			);
+			path = "扩充类";
+			sourceTree = "<group>";
+		};
+		55FE93441FBACE2600E913EE /* 第一个页面 */ = {
+			isa = PBXGroup;
+			children = (
+				5523273E1FB42F34002A0754 /* ViewControllerOne.h */,
+				5523273F1FB42F34002A0754 /* ViewControllerOne.m */,
+				5523276B1FB445B8002A0754 /* TableViewCell.h */,
+				5523276C1FB445B8002A0754 /* TableViewCell.m */,
+			);
+			path = "第一个页面";
+			sourceTree = "<group>";
+		};
+		55FE93451FBACE2B00E913EE /* 第二个页面 */ = {
+			isa = PBXGroup;
+			children = (
+				552327411FB42F49002A0754 /* ViewControllerTwo.h */,
+				552327421FB42F49002A0754 /* ViewControllerTwo.m */,
+				5524E2A81FBD83E6007F7E65 /* tableviewcontroller.h */,
+				5524E2A91FBD83E6007F7E65 /* tableviewcontroller.m */,
+				5524E2A01FBD5CC6007F7E65 /* TableViewVCCell.h */,
+				5524E2A11FBD5CC6007F7E65 /* TableViewVCCell.m */,
+				5524E2A21FBD5CC6007F7E65 /* TableViewVCCell.xib */,
+				5524E2A51FBD6B90007F7E65 /* Tool.h */,
+				5524E2A61FBD6B90007F7E65 /* Tool.m */,
+			);
+			path = "第二个页面";
+			sourceTree = "<group>";
+		};
+		55FE93461FBACE2E00E913EE /* 第三个页面 */ = {
+			isa = PBXGroup;
+			children = (
+				552327441FB42F56002A0754 /* ViewControllerThree.h */,
+				552327451FB42F56002A0754 /* ViewControllerThree.m */,
+				552C4D531FBC03BA00BEC1E6 /* CollectionViewCell.h */,
+				552C4D541FBC03BA00BEC1E6 /* CollectionViewCell.m */,
+				552C4D551FBC03BA00BEC1E6 /* CollectionViewCell.xib */,
+			);
+			path = "第三个页面";
+			sourceTree = "<group>";
+		};
+		55FE93471FBACE3000E913EE /* 第四个页面 */ = {
+			isa = PBXGroup;
+			children = (
+				552327471FB42F62002A0754 /* ViewControllerFour.h */,
+				552327481FB42F62002A0754 /* ViewControllerFour.m */,
+				55FE93521FBAD1C700E913EE /* TableViewCellVC.h */,
+				55FE93531FBAD1C700E913EE /* TableViewCellVC.m */,
+				55FE93541FBAD1C700E913EE /* TableViewCellVC.xib */,
+				55FE934A1FBACEB700E913EE /* model.h */,
+				55FE934B1FBACEB700E913EE /* model.m */,
+				55FE93571FBADA7F00E913EE /* books.plist */,
+			);
+			path = "第四个页面";
+			sourceTree = "<group>";
+		};
+		55FE93481FBACE5800E913EE /* 第五个页面 */ = {
+			isa = PBXGroup;
+			children = (
+				55FE933F1FBAC24200E913EE /* ViewControllerFire.h */,
+				55FE93401FBAC24200E913EE /* ViewControllerFire.m */,
+				55FE93411FBAC24200E913EE /* ViewControllerFire.xib */,
+			);
+			path = "第五个页面";
+			sourceTree = "<group>";
+		};
+		908D92DB080D0C5F3CB7C0E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D5F3E94BB08A65709DB4027 /* Pods-手势解锁.debug.xcconfig */,
+				9063BFA0DBF18D2FB3BB3DAD /* Pods-手势解锁.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5534F0A41FB03F3A0023A447 /* 手势解锁 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5534F0D11FB03F3A0023A447 /* Build configuration list for PBXNativeTarget "手势解锁" */;
+			buildPhases = (
+				A51B579A2926701844FB18C4 /* [CP] Check Pods Manifest.lock */,
+				5534F0A11FB03F3A0023A447 /* Sources */,
+				5534F0A21FB03F3A0023A447 /* Frameworks */,
+				5534F0A31FB03F3A0023A447 /* Resources */,
+				EC462402695390D3384737C8 /* [CP] Embed Pods Frameworks */,
+				44A8F60EF940538C425F3D5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "手势解锁";
+			productName = "手势解锁";
+			productReference = 5534F0A51FB03F3A0023A447 /* 手势解锁.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5534F0BC1FB03F3A0023A447 /* 手势解锁Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5534F0D41FB03F3A0023A447 /* Build configuration list for PBXNativeTarget "手势解锁Tests" */;
+			buildPhases = (
+				5534F0B91FB03F3A0023A447 /* Sources */,
+				5534F0BA1FB03F3A0023A447 /* Frameworks */,
+				5534F0BB1FB03F3A0023A447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5534F0BF1FB03F3A0023A447 /* PBXTargetDependency */,
+			);
+			name = "手势解锁Tests";
+			productName = "手势解锁Tests";
+			productReference = 5534F0BD1FB03F3A0023A447 /* 手势解锁Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5534F0C71FB03F3A0023A447 /* 手势解锁UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5534F0D71FB03F3A0023A447 /* Build configuration list for PBXNativeTarget "手势解锁UITests" */;
+			buildPhases = (
+				5534F0C41FB03F3A0023A447 /* Sources */,
+				5534F0C51FB03F3A0023A447 /* Frameworks */,
+				5534F0C61FB03F3A0023A447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5534F0CA1FB03F3A0023A447 /* PBXTargetDependency */,
+			);
+			name = "手势解锁UITests";
+			productName = "手势解锁UITests";
+			productReference = 5534F0C81FB03F3A0023A447 /* 手势解锁UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5534F09D1FB03F3A0023A447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = slcf888;
+				TargetAttributes = {
+					5534F0A41FB03F3A0023A447 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					5534F0BC1FB03F3A0023A447 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5534F0A41FB03F3A0023A447;
+					};
+					5534F0C71FB03F3A0023A447 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5534F0A41FB03F3A0023A447;
+					};
+				};
+			};
+			buildConfigurationList = 5534F0A01FB03F3A0023A447 /* Build configuration list for PBXProject "手势解锁" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5534F09C1FB03F3A0023A447;
+			productRefGroup = 5534F0A61FB03F3A0023A447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5534F0A41FB03F3A0023A447 /* 手势解锁 */,
+				5534F0BC1FB03F3A0023A447 /* 手势解锁Tests */,
+				5534F0C71FB03F3A0023A447 /* 手势解锁UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5534F0A31FB03F3A0023A447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5524E2A41FBD5CC6007F7E65 /* TableViewVCCell.xib in Resources */,
+				5534F0B51FB03F3A0023A447 /* LaunchScreen.storyboard in Resources */,
+				552C4D571FBC03BA00BEC1E6 /* CollectionViewCell.xib in Resources */,
+				55FE93581FBADBBA00E913EE /* books.plist in Resources */,
+				5534F0B21FB03F3A0023A447 /* Assets.xcassets in Resources */,
+				5534F0B01FB03F3A0023A447 /* Main.storyboard in Resources */,
+				55FE93561FBAD1C700E913EE /* TableViewCellVC.xib in Resources */,
+				55FE93431FBAC24200E913EE /* ViewControllerFire.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5534F0BB1FB03F3A0023A447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5534F0C61FB03F3A0023A447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44A8F60EF940538C425F3D5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-手势解锁/Pods-手势解锁-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A51B579A2926701844FB18C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC462402695390D3384737C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-手势解锁/Pods-手势解锁-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5534F0A11FB03F3A0023A447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5534F1021FB087CC0023A447 /* NSString+Size.m in Sources */,
+				5534F0FF1FB079260023A447 /* UIView+Size.m in Sources */,
+				5524E2A71FBD6B90007F7E65 /* Tool.m in Sources */,
+				552327401FB42F34002A0754 /* ViewControllerOne.m in Sources */,
+				5523276A1FB442AC002A0754 /* CDTabbarVC.m in Sources */,
+				552327691FB442A8002A0754 /* CDTabBar.m in Sources */,
+				552327461FB42F56002A0754 /* ViewControllerThree.m in Sources */,
+				552C4D561FBC03BA00BEC1E6 /* CollectionViewCell.m in Sources */,
+				552327681FB442A6002A0754 /* CDNavigationVC.m in Sources */,
+				55A5FFE01FB147CD00EFC174 /* Myobject.m in Sources */,
+				5524E2A31FBD5CC6007F7E65 /* TableViewVCCell.m in Sources */,
+				5523276D1FB445B8002A0754 /* TableViewCell.m in Sources */,
+				55FE934C1FBACEB700E913EE /* model.m in Sources */,
+				55FE93421FBAC24200E913EE /* ViewControllerFire.m in Sources */,
+				552327431FB42F49002A0754 /* ViewControllerTwo.m in Sources */,
+				5534F0AD1FB03F3A0023A447 /* ViewController.m in Sources */,
+				55A5FFE31FB1487400EFC174 /* UIButton+Edge.m in Sources */,
+				5534F0DC1FB041900023A447 /* LockView.m in Sources */,
+				55FE93551FBAD1C700E913EE /* TableViewCellVC.m in Sources */,
+				552327491FB42F62002A0754 /* ViewControllerFour.m in Sources */,
+				5534F0B81FB03F3A0023A447 /* main.m in Sources */,
+				5534F0AA1FB03F3A0023A447 /* AppDelegate.m in Sources */,
+				5524E2AA1FBD83E6007F7E65 /* tableviewcontroller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5534F0B91FB03F3A0023A447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5534F0C21FB03F3A0023A447 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5534F0C41FB03F3A0023A447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5534F0CD1FB03F3A0023A447 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5534F0BF1FB03F3A0023A447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5534F0A41FB03F3A0023A447 /* 手势解锁 */;
+			targetProxy = 5534F0BE1FB03F3A0023A447 /* PBXContainerItemProxy */;
+		};
+		5534F0CA1FB03F3A0023A447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5534F0A41FB03F3A0023A447 /* 手势解锁 */;
+			targetProxy = 5534F0C91FB03F3A0023A447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5534F0AE1FB03F3A0023A447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5534F0AF1FB03F3A0023A447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5534F0B31FB03F3A0023A447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5534F0B41FB03F3A0023A447 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5534F0CF1FB03F3A0023A447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5534F0D01FB03F3A0023A447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5534F0D21FB03F3A0023A447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5F3E94BB08A65709DB4027 /* Pods-手势解锁.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/slcf888/Desktop/TabBar/手势解锁/CDPch.pch";
+				INFOPLIST_FILE = "手势解锁/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slcf888.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5534F0D31FB03F3A0023A447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9063BFA0DBF18D2FB3BB3DAD /* Pods-手势解锁.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/slcf888/Desktop/TabBar/手势解锁/CDPch.pch";
+				INFOPLIST_FILE = "手势解锁/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slcf888.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5534F0D51FB03F3A0023A447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手势解锁Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slcf888.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手势解锁.app/手势解锁";
+			};
+			name = Debug;
+		};
+		5534F0D61FB03F3A0023A447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手势解锁Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slcf888.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手势解锁.app/手势解锁";
+			};
+			name = Release;
+		};
+		5534F0D81FB03F3A0023A447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手势解锁UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slcf888.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "手势解锁";
+			};
+			name = Debug;
+		};
+		5534F0D91FB03F3A0023A447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手势解锁UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "slcf888.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "手势解锁";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5534F0A01FB03F3A0023A447 /* Build configuration list for PBXProject "手势解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5534F0CF1FB03F3A0023A447 /* Debug */,
+				5534F0D01FB03F3A0023A447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5534F0D11FB03F3A0023A447 /* Build configuration list for PBXNativeTarget "手势解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5534F0D21FB03F3A0023A447 /* Debug */,
+				5534F0D31FB03F3A0023A447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5534F0D41FB03F3A0023A447 /* Build configuration list for PBXNativeTarget "手势解锁Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5534F0D51FB03F3A0023A447 /* Debug */,
+				5534F0D61FB03F3A0023A447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5534F0D71FB03F3A0023A447 /* Build configuration list for PBXNativeTarget "手势解锁UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5534F0D81FB03F3A0023A447 /* Debug */,
+				5534F0D91FB03F3A0023A447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5534F09D1FB03F3A0023A447 /* Project object */;
+}
